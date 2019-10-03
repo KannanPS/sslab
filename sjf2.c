@@ -4,7 +4,7 @@ int min(int i, int j)
 {
     int k, m, a;
     k = i;
-    for (m = i; m < j; m++)
+    for (m = i; m < j; ++m)
     {
         if (bt[m] < bt[k])
             k = m;
